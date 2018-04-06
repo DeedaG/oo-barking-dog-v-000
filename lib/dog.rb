@@ -1,12 +1,14 @@
 # Your code goes here!
 class Dog
 
-  def initialize (name)
+  def initialize (name, bark)
     @name = name
+    @bark = bark
   end
 
-  def name=(name)
+  def name=(name, bark)
     @name = name
+    @bark = bark
   end
 
   def name
